@@ -1,0 +1,10 @@
+library(clusterProfiler)
+library(org.Hs.eg.db)
+args<-commandArgs(TRUE)
+infile <- args[1]
+outfile <- args[2]
+gene.list <- as.character(read.table(infile, sep="\t",header=T)[,2])
+#bg.entrez.ids <- as.character(read.table(bg.ids.path)[,1])
+#kegg <- enrichKEGG(gene.list,organism  = 'human', keyType="kegg",universe=bg.entrez.ids,pAdjustMethod = 'BH',pvalueCutoff = 1, qvalueCutoff = 1)
+kegg <- enrichKEGG(gene.list,organism  = 'hsa', keyType="kegg",pAdjustMethod = 'BH',pvalueCutoff = 1, qvalueCutoff = 1)
+write.table(kegg,file=outfile,sep="\t",quote=FALSE)

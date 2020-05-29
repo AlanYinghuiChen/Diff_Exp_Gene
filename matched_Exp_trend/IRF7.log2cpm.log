@@ -1,0 +1,9 @@
+
+	Wilcoxon signed rank test with continuity correction
+
+data:  control and cancer
+V = 422, p-value = 0.03794
+alternative hypothesis: true location shift is not equal to 0
+
+null device 
+          1 

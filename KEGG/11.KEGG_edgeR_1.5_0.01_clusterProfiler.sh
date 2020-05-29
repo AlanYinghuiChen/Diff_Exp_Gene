@@ -1,0 +1,3 @@
+Rscript /BioII/lulab_b/chenyinghui/project/exRNA/SNP/bin/clusterProfiler.R /BioII/lulab_b/chenyinghui/project/exRNA/CRC/cfRNA/11.KEGG_edgeR_1.5_0.01/NC_PKU-VS-CRC.edgeR.up.FDR.geneID.xls /BioII/lulab_b/chenyinghui/project/exRNA/CRC/cfRNA/11.KEGG_edgeR_1.5_0.01/NC_PKU-VS-CRC.edgeR.up.FDR.KEGG_enrichment.xls
+
+Rscript /BioII/lulab_b/chenyinghui/project/exRNA/SNP/bin/clusterProfiler.R /BioII/lulab_b/chenyinghui/project/exRNA/CRC/cfRNA/11.KEGG_edgeR_1.5_0.01/NC_PKU-VS-CRC.edgeR.down.FDR.geneID.xls /BioII/lulab_b/chenyinghui/project/exRNA/CRC/cfRNA/11.KEGG_edgeR_1.5_0.01/NC_PKU-VS-CRC.edgeR.down.FDR.KEGG_enrichment.xls

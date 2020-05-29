@@ -1,0 +1,1 @@
+python Expression_trend.py geneList1_geneID.txt /BioII/lulab_b/chenyinghui/project/TCGA/expression/CRC/03.Diff_Exp_matched_edgeR /BioII/lulab_b/chenyinghui/project/TCGA/expression/CRC/04.matched_Exp_trend
